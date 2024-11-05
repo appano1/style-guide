@@ -24,6 +24,11 @@ module.exports = [
       ...require('../rules/stylistic').rules,
       ...require('../rules/variables').rules,
     },
+    settings: {
+      'import/resolver': {
+        typescript: true,
+      },
+    },
   },
   {
     files: JAVASCRIPT_FILES,

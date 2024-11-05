@@ -21,5 +21,10 @@ module.exports = [
       ...require('./rules/typescript/extension'),
       ...require('./rules/typescript/import'),
     },
+    settings: {
+      'import/resolver': {
+        typescript: true,
+      },
+    },
   },
 ];

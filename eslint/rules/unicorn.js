@@ -1,5 +1,4 @@
 module.exports = {
-  plugins: ['unicorn'],
   rules: {
     /**
      * Require consistent filename case for all linted files.

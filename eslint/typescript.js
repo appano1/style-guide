@@ -16,7 +16,7 @@ module.exports = {
         require.resolve('./rules/typescript'),
         require.resolve('./rules/typescript/extension'),
         require.resolve('./rules/typescript/import'),
-        require.resolve('./rules/tsdoc'),
+        require.resolve('./tsdoc'),
       ],
     },
   ],

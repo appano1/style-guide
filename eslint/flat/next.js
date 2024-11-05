@@ -29,6 +29,7 @@ module.exports = [
         babelOptions,
       },
     },
+    ignores: ['**/.next/**'],
   },
   {
     files: JAVASCRIPT_FILES,

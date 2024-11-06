@@ -1,6 +1,6 @@
 const tseslint = require('typescript-eslint');
 const importPlugin = require('eslint-plugin-import');
-const prettier = require('prettier');
+const prettier = require('eslint-config-prettier');
 const requirePackage = require('../utils/require-package');
 const { TYPESCRIPT_FILES } = require('./constants');
 const tsdoc = require('./tsdoc');

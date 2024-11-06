@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    'plugin:eslint-comments/recommended',
+    'plugin:@eslint-community/eslint-comments/recommended',
     require.resolve('./rules/comments'),
   ],
 };

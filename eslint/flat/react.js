@@ -17,12 +17,17 @@ module.exports = [
     },
   },
   jsxA11y.flatConfigs.recommended,
-  importPlugin.flatConfigs.react,
-  prettier,
   {
     rules: {
       ...require('../rules/react').rules,
       ...require('../rules/jsx-a11y').rules,
     },
+    settings: {
+      react: {
+        version: 'detect',
+      },
+    },
   },
+  importPlugin.flatConfigs.react,
+  prettier,
 ];

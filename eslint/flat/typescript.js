@@ -17,9 +17,9 @@ module.exports = [
   {
     files: TYPESCRIPT_FILES,
     rules: {
-      ...require('../rules/typescript'),
-      ...require('../rules/typescript/extension'),
-      ...require('../rules/typescript/import'),
+      ...require('../rules/typescript').rules,
+      ...require('../rules/typescript/extension').rules,
+      ...require('../rules/typescript/import').rules,
     },
     settings: {
       'import/resolver': {

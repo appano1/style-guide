@@ -5,6 +5,6 @@ module.exports = {
   ...comments.recommended,
   rules: {
     ...comments.recommended.rules,
-    ...require('../rules/comments'),
+    ...require('../rules/comments').rules,
   },
 };

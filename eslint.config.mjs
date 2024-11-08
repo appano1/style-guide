@@ -17,4 +17,10 @@ export default [
       'sort-keys': 'error',
     },
   },
+  {
+    files: ['*.config.mjs'],
+    rules: {
+      'import/no-default-export': 'off',
+    },
+  },
 ];

@@ -8,7 +8,7 @@ const babelOptions = {
     try {
       require.resolve('next/babel');
       return ['next/babel'];
-    } catch (e) {
+    } catch {
       return [];
     }
   })(),

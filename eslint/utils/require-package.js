@@ -18,7 +18,7 @@ function readPackageManager() {
 module.exports = (configName, packageName) => {
   try {
     require.resolve(packageName);
-  } catch (e) {
+  } catch {
     const packageManager = readPackageManager();
     const command = packageManager === 'yarn' ? 'add' : 'install';
 

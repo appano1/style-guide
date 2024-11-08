@@ -1,4 +1,4 @@
-const vitest = require('eslint-plugin-vitest');
+const vitest = require('@vitest/eslint-plugin');
 
 /** @type {import('eslint').Linter.Config} */
 module.exports = {

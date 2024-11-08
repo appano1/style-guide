@@ -1,3 +1,6 @@
 module.exports = {
-  extends: ['plugin:vitest/recommended', require.resolve('./rules/vitest')],
+  extends: [
+    'plugin:@vitest/legacy-recommended',
+    require.resolve('./rules/vitest'),
+  ],
 };

@@ -1,6 +1,6 @@
 const importPlugin = require('eslint-plugin-import');
 
-/** @type {improt('eslint').Linter.Config} */
+/** @type {import('eslint').Linter.Config} */
 module.exports = {
   ...importPlugin.flatConfigs.recommended,
   rules: {

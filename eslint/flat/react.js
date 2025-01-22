@@ -1,5 +1,6 @@
 const react = require('eslint-plugin-react');
 const reactHooks = require('eslint-plugin-react-hooks');
+const reactRefresh = require('eslint-plugin-react-refresh');
 const jsxA11y = require('eslint-plugin-jsx-a11y');
 const importPlugin = require('eslint-plugin-import');
 const prettier = require('eslint-config-prettier');
@@ -11,9 +12,14 @@ module.exports = [
   {
     plugins: {
       'react-hooks': reactHooks,
+      'react-refresh': reactRefresh,
     },
     rules: {
       ...reactHooks.configs.recommended.rules,
+      'react-refresh/only-export-components': [
+        'warn',
+        { allowConstantExport: true },
+      ],
     },
   },
   jsxA11y.flatConfigs.recommended,

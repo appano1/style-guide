@@ -23,6 +23,7 @@ module.exports = [
     },
     rules: {
       ...next.configs.recommended.rules,
+      ...next.configs['core-web-vitals'].rules,
     },
     languageOptions: {
       parserOptions: {

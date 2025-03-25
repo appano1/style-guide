@@ -1,17 +1,7 @@
-# The Vercel Style Guide
+> [!CAUTION]
+> This repository has been archived and sunset. The existing configurations will remain public for reference.
 
-<a aria-label="Vercel logo" href="https://vercel.com">
-  <img alt="" src="https://img.shields.io/badge/Made%20by%20Vercel-000000.svg?style=flat-square&logo=Vercel&labelColor=000">
-</a>
-<a aria-label="NPM version" href="https://www.npmjs.com/package/@vercel/style-guide">
-  <img alt="" src="https://img.shields.io/npm/v/@vercel/style-guide.svg?style=flat-square&labelColor=000000">
-</a>
-<a aria-label="License" href="https://github.com/vercel/style-guide/blob/canary/LICENSE.md">
-  <img alt="" src="https://img.shields.io/npm/l/@vercel/style-guide.svg?style=flat-square&labelColor=000000">
-</a>
-<a aria-label="CI status" href="https://github.com/vercel/style-guide/actions/workflows/quality.yml?query=event%3Apush+branch%3Amain">
-  <img alt="" src="https://img.shields.io/github/actions/workflow/status/vercel/style-guide/quality.yml?event=push&branch=main&style=flat-square&labelColor=000000">
-</a>
+# Vercel Style Guide
 
 ## Introduction
 
